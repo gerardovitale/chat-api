@@ -1,0 +1,6 @@
+__pycache__
+.env
+.vscode
+.DS_Store
+/helpers/instagram_data_api
+/scrapping
