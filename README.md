@@ -86,7 +86,7 @@ In order to develop this project, it has been taken into account some packages a
 2. Secondly, a database was created in mongoDB and it was filled in with some info in order to test the methods and functions that would be written in any moment.
 3. In third place, while the scripts located in ```/api``` and ```/helpers``` were being written, some basic test were carried out in google chrome and in the postman extension. At this point, myAPI and mongoDB were connected and exchanging data.
 4. Then, when myAPI seemed ro be ready to managed some data flow, the focus turned into collecting some info from Instagram API. It should be noted that the request to instagrams were and are set to be made by the API. At this point, it was clear that it has been set a connection between myAPI and Instagram, and another one between myAPI and mongoDB.
-5. Finally, the comments collected from the Instagram API response were analysed using ```nltk, SentimentIntensityAnalyzer```, so that it could be possible to know if those comments were either positive, negative or even neutral. This analysis was performed just considering my instagram account (**@gerardovitale**) and for the latest posts. the result are shown below:
+5. Finally, the comments collected from the Instagram API response were analysed using ```nltk, SentimentIntensityAnalyzer```, so that it could be possible to know if those comments were either positive, negative or even neutral. This analysis was performed just considering my instagram account (**@gerardovitale**) for the latest posts. The result are shown below:
 ```
                 neg         neu         pos    compound
     count  182.000000  182.000000  182.000000  182.000000
@@ -100,4 +100,4 @@ In order to develop this project, it has been taken into account some packages a
 ```
 
 
-Readers should consider that ```nltk, SentimentIntensityAnalyzer``` has not been optimise to treat emojis and other languages but english, and both are present in my instagram account comment.
+Readers should consider that ```nltk, SentimentIntensityAnalyzer``` has not been optimise to treat emojis and other languages but english, and both are present in my instagram account comments.
